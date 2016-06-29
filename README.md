@@ -25,7 +25,6 @@ Or install it yourself as:
 ## Usage
 
    require 'mina/foreman'
-   set :application, "app-name"
 
    task :deploy => :environment do
      deploy do
